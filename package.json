@@ -1,0 +1,37 @@
+{
+  "name": "web-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "generate-password": "^1.7.0",
+    "https-proxy-agent": "^5.0.1",
+    "jimp": "^0.16.2",
+    "joi": "^17.6.4",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.7.1",
+    "make-dir": "^3.1.0",
+    "mime": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongodb-backup-cloud": "^1.0.8",
+    "mongoose": "^6.7.0",
+    "mongoose-auto-increment-reworked": "^1.2.1",
+    "node-cron": "^3.0.2",
+    "piscina": "^3.2.0",
+    "ramda": "^0.28.0",
+    "web3": "^1.10.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

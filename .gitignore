@@ -1,0 +1,8 @@
+.idea
+.vscode
+node_modules/
+yarn.lock
+package-lock.json
+.env
+db_connection.log
+database-backup
