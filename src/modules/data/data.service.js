@@ -98,8 +98,8 @@ module.exports.getData = async (body) => {
 
   const hourlyDetections = {};
 
-  const FRUITS = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-  const citrus = FRUITS.slice(1, 3);
+  // const FRUITS = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+  // const citrus = FRUITS.slice(1, 3);
 
   data.slice(0, sliceNumber).forEach((item) => {
     const hour = item.Timestamp.slice(0, 13); // Extract YYYY-MM-DD HH
